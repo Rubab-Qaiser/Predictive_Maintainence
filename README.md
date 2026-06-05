@@ -124,16 +124,16 @@ predictive-maintenance-ml-pipeline/
 ## Key Results
 Model Comparison Chart
 text
-ROC AUC Comparison:
-Random Forest  ████████████████████ 0.9751
-XGBoost        ███████████████████  0.9710
-Logistic Reg.  █████████████████    0.9234
+## ROC AUC Comparison:
+- Random Forest  ████████████████████ 0.9751
+- XGBoost        ███████████████████  0.9710
+- Logistic Reg.  █████████████████    0.9234
 
 ## Accuracy Comparison:
-Random Forest  ███████████████████  0.9670
-XGBoost        ███████████████████  0.9675
-Logistic Reg.  ███████████████████  0.9620
-Production Test Scenarios
+- Random Forest  ███████████████████  0.9670
+- XGBoost        ███████████████████  0.9675
+- Logistic Reg.  ███████████████████  0.9620
+## Production Test Scenarios
 Scenario	Temperature	Vibration	Pressure	Age	Prediction
 - Normal	70°F	0.4	95 PSI	100 days	 Normal Operation
 - Medium Risk	85°F	0.6	110 PSI	200 days	 Schedule Maintenance
